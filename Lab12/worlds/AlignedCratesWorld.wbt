@@ -1,0 +1,123 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "../protos/Khepera3.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023a/projects/objects/factory/containers/protos/WoodenBox.proto"
+
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.7082203323319434 -0.7056715039217301 0.021252986248419356 3.2687858388650244
+  position -0.15230150837722692 3.1756893700724684 0.12902599514795743
+  follow "wooden box(1)"
+  followType "None"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+WoodenBox {
+  translation -0.232304 0.05 0.528789
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  size 0.4 0.1 0.1
+}
+WoodenBox {
+  translation 0.9877 0.05 -0.00120789
+  rotation -0.5773520754570453 0.5773493660537968 0.5773493660537968 2.0943923929941852
+  name "wooden box(6)"
+  size 1.5 0.02 0.1
+}
+WoodenBox {
+  translation -0.9923 0.05 -0.00121727
+  rotation -0.5773520754570453 0.5773493660537968 0.5773493660537968 2.0943923929941852
+  name "wooden box(7)"
+  size 1.5 0.02 0.1
+}
+WoodenBox {
+  translation -0.0022968 0.05 -0.741212
+  rotation -0.5773520754570453 0.5773493660537968 0.5773493660537968 2.0943923929941852
+  name "wooden box(8)"
+  size 0.02 1.96 0.1
+}
+WoodenBox {
+  translation -0.00230398 0.05 0.738788
+  rotation -0.5773520754570453 0.5773493660537968 0.5773493660537968 2.0943923929941852
+  name "wooden box(9)"
+  size 0.02 1.96 0.1
+}
+WoodenBox {
+  translation 0.225919 0.05 -0.633676
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  name "wooden box(1)"
+  size 0.2 0.2 0.1
+}
+WoodenBox {
+  translation 0.880409 0.05 -0.287634
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  name "wooden box(11)"
+  size 0.2 0.2 0.1
+}
+WoodenBox {
+  translation 0.723152 0.05 0.572234
+  rotation -1.2986841950112875e-06 -0.7071067811859513 -0.7071067811859513 3.141590056252852
+  name "wooden box(2)"
+  size 0.5 0.3 0.1
+}
+WoodenBox {
+  translation -0.834791 0.05 -0.241364
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  name "wooden box(3)"
+  size 0.1 0.3 0.1
+}
+WoodenBox {
+  translation -0.637777 0.05 -0.140046
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.828185 0.05 -0.084361
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  name "wooden box(5)"
+  size 0.2 0.3 0.1
+}
+WoodenBox {
+  translation -0.40977 0.05 -0.685013
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  name "wooden box(10)"
+  size 0.1 0.1 0.1
+}
+DEF floor RectangleArena {
+  rotation -0.5773502691896258 0.5773502691896258 0.5773502691896258 2.0943951023931957
+  floorSize 1.5 2
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Khepera3 {
+  hidden position_0_0 6634.707884514124
+  hidden position_0_1 7103.9200600579625
+  hidden linearVelocity_0 0.027376227083674938 -0.004379453890726803 -0.024003288018552095
+  hidden angularVelocity_0 0.09269615315004587 -3.5648633733869612 -0.09945100770330692
+  hidden rotation_1 0.6319126636111777 -0.6319126744394086 -0.44874576037068103 2.297971727224603
+  hidden linearVelocity_1 -0.11655150554479562 9.352322575992287e-05 -0.10722661238419404
+  hidden angularVelocity_1 -5.2084114080382315 -3.733761477540032 5.211382264756137
+  hidden rotation_2 -0.6781162494478236 0.6781163062896421 -0.28340188316048526 2.589271748797161
+  hidden linearVelocity_2 0.11301997725941809 9.982186251651637e-05 0.11280863249641185
+  hidden angularVelocity_2 5.391991602190462 -3.7279156750640574 -5.412002334968601
+  translation -0.8975243737993972 -0.004176128848557115 -0.5032083092658147
+  rotation -0.3070730218510426 0.6710518936100421 0.6748299899483171 2.5301540217938743
+  controller "Lab12Controller"
+  turretSlot [
+    Compass {
+    }
+    Display {
+      width 400
+      height 300
+    }
+  ]
+}
